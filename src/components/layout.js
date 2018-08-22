@@ -32,28 +32,26 @@ const Layout = ({ children, data }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <PageTransition
           defaultStyle={{
-            transition: 'left 500ms cubic-bezier(0.47, 0, 0.75, 0.72)',
-            left: '100%',
-            position: 'absolute',
-            width: '100%',
+            transition: 'opacity 750ms ease-in-out',
+            opacity: '0',
           }}
           transitionStyles={{
-            entering: { left: '0%' },
-            entered: { left: '0%' },
-            exiting: { left: '100%' },
+            entering: { opacity: '1.0' },
+            entered: { opacity: '1.0' },
+            exiting: { opacity: '0' },
           }}
           transitionTime={500}
         >
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {children}
-        </div>
+          <div
+            style={{
+              margin: '0 auto',
+              maxWidth: 960,
+              padding: '0px 1.0875rem 1.45rem',
+              paddingTop: 0,
+            }}
+          >
+            {children}
+          </div>
         </PageTransition>
       </>
     )}
