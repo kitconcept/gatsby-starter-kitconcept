@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import PageTransition from 'gatsby-plugin-page-transitions'
 
 const Header = ({ siteTitle }) => (
   <div
