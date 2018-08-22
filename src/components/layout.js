@@ -40,7 +40,6 @@ const Layout = ({ children, data }) => (
             entered: { opacity: '1.0' },
             exiting: { opacity: '0' },
           }}
-          transitionTime={500}
         >
           <div
             style={{
