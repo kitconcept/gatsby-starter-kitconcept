@@ -32,7 +32,7 @@ const Layout = ({ children, data }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <PageTransition
           defaultStyle={{
-            transition: 'opacity 750ms ease-in-out',
+            transition: 'opacity 250ms ease-in-out',
             opacity: '0',
           }}
           transitionStyles={{
