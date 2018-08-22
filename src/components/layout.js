@@ -36,7 +36,7 @@ const Layout = ({ children, data }) => (
             opacity: '0',
           }}
           transitionStyles={{
-            entering: { opacity: '1.0' },
+            entering: { opacity: '0' },
             entered: { opacity: '1.0' },
             exiting: { opacity: '0' },
           }}
