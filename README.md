@@ -1,52 +1,27 @@
 # gatsby-starter-kitconcept
 
-## Page Transitions
+The default Gatsby starter.
 
-Install gatsby-plugin-page-transitions:
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-```
-npm install --save gatsby-plugin-page-transitions
-```
+## Install
 
-Add plugin to gatsby-config.js:
-
-```
-  plugins: [
-    'gatsby-plugin-page-transitions',
-    ...
-  ]
+Make sure that you have the Gatsby CLI program installed:
+```sh
+npm install --global gatsby-cli
 ```
 
-Import PageTransition in src/components/layout.js:
-
+And run from your CLI:
+```sh
+gatsby new gatsby-example-site
 ```
-import PageTransition from 'gatsby-plugin-page-transitions'
-````
 
-Add PageTransition element to src/components/layout.js:
+Then you can run it by:
+```sh
+cd gatsby-example-site
+gatsby develop
+```
 
-```
-<PageTransition
-  defaultStyle={{
-    transition: 'opacity 250ms ease-in-out',
-    opacity: '0',
-  }}
-  transitionStyles={{
-    entering: { opacity: '0' },
-    entered: { opacity: '1.0' },
-    exiting: { opacity: '0' },
-  }}
-  transitionTime={500}
->
-  <div
-    style={{
-      margin: '0 auto',
-      maxWidth: 960,
-      padding: '0px 1.0875rem 1.45rem',
-      paddingTop: 0,
-    }}
-  >
-    {children}
-  </div>
-</PageTransition>
-```
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
