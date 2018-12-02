@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import HamburgerMenu from './hamburger-menu'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -25,6 +26,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        <HamburgerMenu />
       </h1>
     </div>
   </div>
