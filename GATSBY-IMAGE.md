@@ -4,6 +4,6 @@ Install gatsby-image:
 
     <img src={logo} alt="Image" />
 
-```npm install --save gatsby-transformer-sharp gatsby-plugin-sharp```
+```npm install --save gatsby-source-filesystem gatsby-transformer-sharp gatsby-plugin-sharp```
 
 
