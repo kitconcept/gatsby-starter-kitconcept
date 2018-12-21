@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container, Divider, Grid, Header, Image } from 'semantic-ui-react'
-import { Link } from 'gatsby'
-import { Placeholder } from '../../images/placeholder.png'
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import Placeholder from '../../images/placeholder.png'
 
 import Layout from '../../components/layout'
 
@@ -42,10 +43,10 @@ const InlineStyle = () => (
   `}</style>
 )
 
-const HeroImageFullPage = () => (
+const HeroImageFullPage = props => (
   <Layout>
     <InlineStyle />
-    <Image src="../../images/placeholder.png" fluid />
+    <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
     <Container>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
@@ -57,3 +58,15 @@ const HeroImageFullPage = () => (
 )
 
 export default HeroImageFullPage
+
+export const pageQuery = graphql`
+  query {
+    placeholderImage: file(relativePath: { eq: "placeholder.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 2000, maxHeight: 900, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
