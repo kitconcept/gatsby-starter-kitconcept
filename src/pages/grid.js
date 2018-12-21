@@ -403,7 +403,6 @@ const GridLayout = () => (
         </Grid.Row>
       </Grid>
     </Container>
-    )
   </Layout>
 )
 
