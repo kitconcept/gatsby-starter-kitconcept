@@ -20,6 +20,9 @@ const IndexPage = () => (
       <li>
         <Link to="/responsive/">Responsive</Link>
       </li>
+      <li>
+        <Link to="/example-pages/">Examples</Link>
+      </li>
     </ul>
   </Layout>
 )
