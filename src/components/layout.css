@@ -1,3 +1,17 @@
+.toBeAnimated {
+  opacity: 0;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+}
+
+.animateMe {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

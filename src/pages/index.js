@@ -27,13 +27,25 @@ class IndexPage extends React.Component {
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
-        <div style={{ height: '100vh' }}>One...</div>
-        <Waypoint onEnter={this._handleWaypointEnter} onLeave={this._handleWaypointLeave}>
-          <div className={this.state.stickyNav ? 'anmiateMe ' : ''} style={{ height: '100vh' }}>
+        <div style={{ height: '100vh' }}>
+          <h2>One...</h2>
+        </div>
+        <div style={{ height: '100vh', background: '#f2f2f2' }}>
+          <h2
+            className={this.state.stickyNav ? 'animateMe ' : 'toBeAnimated'}
+          >
             Two...
-          </div>
-        </Waypoint>
-        <div style={{ height: '100vh' }}>Three...</div>
+          </h2>
+          <Waypoint
+            onEnter={this._handleWaypointEnter}
+            onLeave={this._handleWaypointLeave}
+            bottomOffset="100px"
+            debug="True" />
+        </div>
+
+        <div style={{ height: '100vh' }}>
+          <h2>Three...</h2>
+        </div>
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
   }
