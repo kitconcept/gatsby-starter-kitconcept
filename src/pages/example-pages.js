@@ -11,7 +11,7 @@ const ExamplesPage = () => (
         <Link to="examples/hero-full-width">Hero image full width</Link>
       </li>
       <li>
-        <Link to="examples/hero-full-width">Hero image full width</Link>
+        <Link to="examples/hero-normal-width">Hero image normal width</Link>
       </li>
     </ul>
   </Layout>
