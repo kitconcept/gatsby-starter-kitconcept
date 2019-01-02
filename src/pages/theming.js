@@ -14,8 +14,6 @@ import Layout from '../components/layout'
 
 const ThemingLayout = () => (
   <Layout>
-    <Link to="/">Back to home</Link>
-
     <Container style={{ marginTop: '3em' }}>
       <Header as="h1">Theming Examples</Header>
 

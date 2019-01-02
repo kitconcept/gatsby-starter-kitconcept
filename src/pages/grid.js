@@ -44,7 +44,6 @@ const InlineStyle = () => (
 const GridLayout = () => (
   <Layout>
     <InlineStyle />
-    <Link to="/">Back to home</Link>
     <Container text>
       <Header as="h1" dividing>
         Using Grids

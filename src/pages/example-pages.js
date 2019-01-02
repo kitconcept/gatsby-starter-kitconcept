@@ -10,6 +10,9 @@ const ExamplesPage = () => (
       <li>
         <Link to="examples/hero-full-width">Hero image full width</Link>
       </li>
+      <li>
+        <Link to="examples/hero-full-width">Hero image full width</Link>
+      </li>
     </ul>
   </Layout>
 )
