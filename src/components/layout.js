@@ -7,7 +7,7 @@ import PageTransition from 'gatsby-v2-plugin-page-transitions';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 
-import 'semantic-ui-less/semantic.less';
+import '../theme/semantic.less';
 
 const Layout = ({ children }) => (
   <StaticQuery
