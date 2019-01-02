@@ -13,6 +13,11 @@ const ExamplesPage = () => (
       <li>
         <Link to="examples/hero-normal-width">Hero image normal width</Link>
       </li>
+      <li>
+        <Link to="examples/text-images-block-normal-width">
+          Text-blocks and images in normal width
+        </Link>
+      </li>
     </ul>
   </Layout>
 )
