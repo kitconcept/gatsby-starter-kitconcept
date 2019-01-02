@@ -1,14 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
+// import { Link } from 'gatsby'
+import PageTransition from 'gatsby-v2-plugin-page-transitions';
+import Navigation from '../components/navigation';
+import Footer from '../components/footer';
 
-import Header from './header'
+import 'semantic-ui-less/semantic.less';
 
-import 'semantic-ui-less/semantic.less'
-// import './layout.css'
-
-const Layout = ({ children, data }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -24,30 +25,50 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'Wir sind eine Agentur für digitale Technologien. Webseiten, Mobile Apps und Intranet Anwendungen mit React, React Native, Python und Plone.',
+            },
+            {
+              name: 'keywords',
+              content:
+                'Agentur, Bonn, React, ReactJS, React Native, JavaScript, Angular, AngularJS, Python, Django, Pyramid, Plone',
+            },
           ]}
         >
-          <html lang="en" />
+          <html lang="de" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
+        <Navigation />
+        <PageTransition
+          defaultStyle={{
+            opacity: '0',
           }}
+          transitionStyles={{
+            entering: {
+              opacity: '0',
+            },
+            entered: {
+              opacity: '1.0',
+              transition: 'opacity 250ms ease-in-out',
+            },
+            exiting: {
+              opacity: '0',
+              transition: 'opacity 250ms ease-in-out',
+            },
+          }}
+          transitionTime={250}
         >
           {children}
-        </div>
+        </PageTransition>
+        <Footer />
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

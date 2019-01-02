@@ -1,8 +1,8 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'kitconcept GmbH - Agentur für digitale Technologien',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,6 +18,21 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-v2-plugin-page-transitions',
+      options: {
+        transitionTime: 500,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-offline',
     'gatsby-plugin-less',
     {
@@ -28,7 +43,7 @@ module.exports = {
           path.join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx}'),
           path.join(
             process.cwd(),
-            'node_modules/semantic-ui-less/!(*.d).{ts,js,jsx,tsx}'
+            'node_modules/semantic-ui-less/!(*.d).{ts,js,jsx,tsx}',
           ),
         ],
         // develop: true, // Enable while using `gatsby develop`
@@ -39,4 +54,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -1,0 +1,10 @@
+.ui.container.navigation {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ui.container.footer {
+  display: flex;
+}
