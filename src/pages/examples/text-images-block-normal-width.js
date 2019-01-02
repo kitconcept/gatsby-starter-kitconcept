@@ -17,11 +17,11 @@ const HeroImageFullPage = props => (
         </p>
         <Divider />
         <Grid>
-          <Grid.Row>
-            <Grid.Column width={10}>
+          <Grid.Row columns={2}>
+            <Grid.Column>
               <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
             </Grid.Column>
-            <Grid.Column width={6}>
+            <Grid.Column>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
                 odit error ipsam deleniti? Rem consectetur consequuntur, itaque
@@ -30,8 +30,8 @@ const HeroImageFullPage = props => (
               </p>
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row>
-            <Grid.Column width={6}>
+          <Grid.Row columns={2}>
+            <Grid.Column>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
                 odit error ipsam deleniti? Rem consectetur consequuntur, itaque
@@ -39,7 +39,7 @@ const HeroImageFullPage = props => (
                 nisi eaque. Alias, cum expedita.
               </p>
             </Grid.Column>
-            <Grid.Column width={10}>
+            <Grid.Column>
               <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
             </Grid.Column>
           </Grid.Row>
