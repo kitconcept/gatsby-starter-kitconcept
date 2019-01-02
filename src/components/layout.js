@@ -5,8 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 
-import 'semantic-ui-less/semantic.less'
-// import './layout.css'
+import '../theme/semantic.less'
 
 const Layout = ({ children, data }) => (
   <StaticQuery
