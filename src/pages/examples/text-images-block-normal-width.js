@@ -15,36 +15,36 @@ const HeroImageFullPage = props => (
           qui corporis quaerat, temporibus quisquam a provident repellat
           perferendis placeat.
         </p>
-        <Divider />
-        <Grid>
-          <Grid.Row columns={2}>
-            <Grid.Column>
-              <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
-            </Grid.Column>
-            <Grid.Column>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                odit error ipsam deleniti? Rem consectetur consequuntur, itaque
-                velit quaerat, expedita repudiandae quasi nihil reiciendis earum
-                nisi eaque. Alias, cum expedita.
-              </p>
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row columns={2}>
-            <Grid.Column>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                odit error ipsam deleniti? Rem consectetur consequuntur, itaque
-                velit quaerat, expedita repudiandae quasi nihil reiciendis earum
-                nisi eaque. Alias, cum expedita.
-              </p>
-            </Grid.Column>
-            <Grid.Column>
-              <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
       </Container>
+      <Divider />
+      <Grid>
+        <Grid.Row columns={2}>
+          <Grid.Column>
+            <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
+          </Grid.Column>
+          <Grid.Column>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odit
+              error ipsam deleniti? Rem consectetur consequuntur, itaque velit
+              quaerat, expedita repudiandae quasi nihil reiciendis earum nisi
+              eaque. Alias, cum expedita.
+            </p>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row columns={2}>
+          <Grid.Column>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odit
+              error ipsam deleniti? Rem consectetur consequuntur, itaque velit
+              quaerat, expedita repudiandae quasi nihil reiciendis earum nisi
+              eaque. Alias, cum expedita.
+            </p>
+          </Grid.Column>
+          <Grid.Column>
+            <Img fluid={props.data.placeholderImage.childImageSharp.fluid} />
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
     </Container>
   </Layout>
 )
