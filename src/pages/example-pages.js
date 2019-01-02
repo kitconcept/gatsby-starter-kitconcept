@@ -18,6 +18,11 @@ const ExamplesPage = () => (
           Text-blocks and images in normal width
         </Link>
       </li>
+      <li>
+        <Link to="examples/text-images-block-small-width">
+          Text-blocks and images in small width
+        </Link>
+      </li>
     </ul>
   </Layout>
 )
