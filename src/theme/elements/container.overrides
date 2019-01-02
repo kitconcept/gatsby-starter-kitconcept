@@ -4,7 +4,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
-.ui.container.footer {
-  display: flex;
-}

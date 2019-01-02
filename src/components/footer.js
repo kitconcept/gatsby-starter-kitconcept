@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { Container } from 'semantic-ui-react';
 
 const Footer = ({ siteTitle }) => (
-  <Container className="footer">
+  <footer className="footer">
     <div className="inner">
       <div className="contact">...</div>
       <div className="box">
@@ -42,7 +42,7 @@ const Footer = ({ siteTitle }) => (
         <Link to="impressum">Impressum</Link>
       </div>
     </div>
-  </Container>
+  </footer>
 );
 
 export default Footer;
