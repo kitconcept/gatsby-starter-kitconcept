@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Button,
   Container,
@@ -12,11 +12,11 @@ import {
   Segment,
   Step,
   Table,
-} from 'semantic-ui-react'
+} from 'semantic-ui-react';
 
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
+import Layout from '../components/layout';
 
 const style = {
   h1: {
@@ -32,7 +32,7 @@ const style = {
   last: {
     marginBottom: '300px',
   },
-}
+};
 
 const ResponsiveLayout = () => (
   <Layout>
@@ -765,6 +765,6 @@ const ResponsiveLayout = () => (
       </Step.Group>
     </Container>
   </Layout>
-)
+);
 
-export default ResponsiveLayout
+export default ResponsiveLayout;

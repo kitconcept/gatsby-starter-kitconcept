@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const path = require('path')
+const path = require('path');
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig({
@@ -13,5 +13,5 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
         '../../theme.config$': path.join(__dirname, 'src/theme/theme.config'),
       },
     },
-  })
-}
+  });
+};

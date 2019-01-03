@@ -1,8 +1,8 @@
-import React from 'react'
-import { Container, Divider, Grid, Header, Image } from 'semantic-ui-react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Container, Divider, Grid, Header, Image } from 'semantic-ui-react';
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
+import Layout from '../components/layout';
 
 const InlineStyle = () => (
   <style>{`
@@ -39,7 +39,7 @@ const InlineStyle = () => (
       }
     }
   `}</style>
-)
+);
 
 const GridLayout = () => (
   <Layout>
@@ -404,6 +404,6 @@ const GridLayout = () => (
       </Grid>
     </Container>
   </Layout>
-)
+);
 
-export default GridLayout
+export default GridLayout;

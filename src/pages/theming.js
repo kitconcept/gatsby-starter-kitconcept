@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Button,
   Container,
@@ -8,9 +8,9 @@ import {
   Image,
   Menu,
   Segment,
-} from 'semantic-ui-react'
-import { Link } from 'gatsby'
-import Layout from '../components/layout'
+} from 'semantic-ui-react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
 const ThemingLayout = () => (
   <Layout>
@@ -300,6 +300,6 @@ const ThemingLayout = () => (
       </Grid>
     </Container>
   </Layout>
-)
+);
 
-export default ThemingLayout
+export default ThemingLayout;
