@@ -12,8 +12,9 @@ class FadeCarousel extends React.Component{
 render ()
 {
   return(
-    <Layout>
+    
     <Carousel defaultWait={100000} /*wait for 1000 milliseconds*/>
+    <Layout>
     <Fade>
       <div>
         <h1>Slide 1</h1>
@@ -26,10 +27,9 @@ render ()
         <p>Slide Description</p>
       </div>
       </Fade>
+      <Link to="/">Go back to the homepage</Link>
+      </Layout>
       </Carousel>
-  <Link to="/">Go back to the homepage</Link>
-  </Layout>
-
   );
 }
 }
