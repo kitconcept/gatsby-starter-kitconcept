@@ -28,19 +28,19 @@ class FadeCarousel extends React.Component {
     return (
       <Layout>
         <Carousel>
-          <Fade>
+          <Fade duration={3000}>
             <div>
               <h1>Slide 1</h1>
               <p>Slide Description</p>
             </div>
           </Fade>
-          <Fade>
+          <Fade delay={1000}>
             <div>
               <h1>Slide 2</h1>
               <p>Slide Description</p>
             </div>
           </Fade>
-          <Fade>
+          <Fade opposite cascade>
             <div>
               <h1>Slide 3</h1>
               <p>Slide Description</p>
