@@ -12,6 +12,7 @@ export default class Fade extends Component {
       dots: true,
       fade: true,
       infinite: true,
+      autoplay: true,
       speed: 1000,
       className: "center",
       slidesToShow: 1,
