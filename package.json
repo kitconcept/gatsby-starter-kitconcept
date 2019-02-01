@@ -17,6 +17,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
+    "react-typeform-embed": "^0.2.0",
     "semantic-ui-less": "^2.4.1",
     "semantic-ui-react": "^0.84.0"
   },
