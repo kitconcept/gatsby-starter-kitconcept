@@ -1,7 +1,7 @@
 ---
-path: '/blog/composite-page'
-date: '2019-05-04'
-title: 'My first blog post'
+path: '/composite-page'
+date: '2019-10-10'
+title: 'Übersichtsseite'
 ---
 
 ## 10. Übung: Bestehende Inhaltselemente auf Überssichtsseite einblenden
@@ -35,3 +35,4 @@ title: 'My first blog post'
 ![columnTwo](columnTwo.png)
 
 9. Klicken Sie in der Bearbeitungsleiste auf Speichern
+   0
