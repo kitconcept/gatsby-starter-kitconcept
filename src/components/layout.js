@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children, data, isFrontpage }) => (
+const Layout = ({ children, data, isFrontpage, isDocs }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -97,6 +97,7 @@ const Layout = ({ children, data, isFrontpage }) => (
                     padding: '10px 25px',
                     paddingTop: '15px',
                     paddingBottom: '15px',
+                    borderBottom: 'none',
                   }}
                 >
                   Weiter zur Schulung >
@@ -104,6 +105,190 @@ const Layout = ({ children, data, isFrontpage }) => (
               </div>
             </div>
           </header>
+        )}
+        {isDocs && (
+          <nav
+            class="sidebarnav"
+            style={{
+              display: 'flex',
+              position: 'absolute',
+              right: '0',
+              flexDirection: 'column',
+              paddingTop: '80px',
+              paddingRight: '20px',
+              backgroundColor: 'rgb(247,247,247)',
+              width: '12%',
+              paddingLeft: '40px',
+            }}
+          >
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                Get Started
+              </button>
+              <ul>
+                <li>
+                  <a>Get Started</a>
+                </li>
+                <li>
+                  <a>What is Plone/Volto?</a>
+                </li>
+                <li>
+                  <a>Logging in</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                First Steps
+              </button>
+              <ul>
+                <li>
+                  <a>Seite bearbeiten</a>
+                </li>
+                <li>
+                  <a>Seite erstellen</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                Inline Styles
+              </button>
+              <ul>
+                <li>
+                  <a>Textformatierung</a>
+                </li>
+                <li>
+                  <a>Externe Links</a>
+                </li>
+                <li>
+                  <a>Interne Links</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                Bilder hinzufügen
+              </button>
+              <ul>
+                <li>
+                  <a>Bilder hochladen</a>
+                </li>
+                <li>
+                  <a>Bilder einbinden</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                Übersichtsseiten
+              </button>
+              <ul>
+                <li>
+                  <a>Übersichtsseiten</a>
+                </li>
+                <li>
+                  <a>Übersichtsseiten erstellen</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                Schlagwörter
+              </button>
+              <ul>
+                <li>
+                  <a>Schlagwörter</a>
+                </li>
+                <li>
+                  <a>Schlagwörter erstellen</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button
+                style={{
+                  color: 'rgb(109, 109, 109)',
+                  backgroundColor: 'rgb(247,247,247)',
+                  fontWeight: '700',
+                  lineHeight: '3',
+                  textTransform: 'uppercase',
+                  fontSize: '14px',
+                  border: 'none',
+                  display: 'inline-block',
+                }}
+              >
+                Nachrichtenseiten erstellen
+              </button>
+            </div>
+          </nav>
+          // </div>
         )}
 
         <div

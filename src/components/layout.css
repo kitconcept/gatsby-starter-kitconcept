@@ -701,4 +701,17 @@ border-left-color: #ffe564;
   Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
+.sidebarnav a {
+  text-decoration: none;
+  background-color: rgb(247,247,247);
+  border-bottom: none;
+}
+
+.sidebarnav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
 

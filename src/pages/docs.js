@@ -6,59 +6,9 @@ import BigHeader from '../components/bigheader'
 import Layout from '../components/layout'
 
 const DocsPage = () => (
-  <Layout>
+  <Layout isDocs>
     <sharedStyles>
-      <div
-        style={{
-          transition: 'opacity 0.5s ease 0s',
-          display: 'block',
-          borderLeft: '1px solid rgb(236,236,236)',
-          backgroundColor: 'rgb(247,247,247)',
-          opacity: '1',
-        }}
-      >
-        <div
-          class={{
-            display: 'block',
-          }}
-        >
-          <nav
-            class="sidebarnav"
-            style={{
-              display: 'flex',
-            }}
-          >
-            <div>
-              <button>Get Started</button>
-              <ul>
-                <li>
-                  <a>Get Started</a>
-                </li>
-                <li>
-                  <a>What is Plone/Volto?</a>
-                </li>
-                <li>
-                  <a>Logging in</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <button>First Steps</button>
-              <ul>
-                <li>
-                  <a></a>
-                </li>
-                <li>
-                  <a></a>
-                </li>
-              </ul>
-            </div>
-            <div></div>
-            <div></div>
-          </nav>
-        </div>
-      </div>
-      <p style={{ marginTop: '100px' }}>
+      {/* <p style={{ marginTop: '100px' }}>
         Plone/Volto ist ein sogenanntes Content-Management-System (CMS), welches
         ihnen erlaubt, ihre Webseite auch ohne Programmierkenntnisse mit Inhalt
         zu füllen. Darüber hinaus können sie die Inhalte ihrer Webseite
@@ -66,8 +16,8 @@ const DocsPage = () => (
         Nachfolgenden werden ihnen die Grundkenntnisse von Plone/Volto erklärt,
         und sie werden bereits nach kürzester Zeit ihre ersten Seiten erstellen
         und mit Inhalten füllen können.
-      </p>
-      <h2>Inhaltsverzeichnis</h2>
+      </p> */}
+      <h1>Inhaltsverzeichnis</h1>
       <ol>
         <li>
           <Link to="/page-2/">Einloggen</Link>{' '}
