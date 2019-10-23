@@ -6,10 +6,9 @@ title: 'Seite erstellen'
 
 ## 3. Übung: Seite erstellen
 
-1. Loggen Sie sich auf auf <a href="https://internet.fzj.kitconcept.io/"> `https://internet.fzj.kitconcept.io/`</a> ein <br/> (siehe Übung 1) <br/>
-   Gehen Sie auf ihren eigenen Ordner (siehe Übung 2)
+1. Loggen Sie sich auf https://volto.kitconcept.com/ &nbsp ein <br/> (siehe Übung 1) <br/>
 
-2. Klicken Sie auf das "+"-Symbol in der Bearbeitungsleiste und wählen Sie im Auswahlmenü "Seite" aus
+2) Klicken Sie auf das "+"-Symbol in der Bearbeitungsleiste und wählen Sie im Auswahlmenü "Seite" aus
 
 ![createpage](createpage.png)
 

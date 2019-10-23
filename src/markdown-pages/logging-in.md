@@ -6,12 +6,12 @@ title: 'Einloggen'
 
 ## 1. Übung: Einloggen
 
-1. Gehen Sie auf https://internet.fzj.kitconcept.io/
-2. Klicken Sie rechts oben im Header auf den "Login"-Link
+1. Gehen Sie auf https://volto.kitconcept.com
+2. Klicken Sie rechts oben im Header auf den "Login"-Button
 
 ![Login](login.png)
 
-3. Geben Sie ihren Benutzernamen (z.B. "user1") und ihr Passwort ein
+3. Geben Sie ihren Benutzernamen und ihr Passwort ein
 
 ![Loginscreen](loginscreen.png)
 

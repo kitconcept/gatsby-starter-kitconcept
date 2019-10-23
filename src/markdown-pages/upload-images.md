@@ -6,9 +6,10 @@ title: 'Bilder hochladen'
 
 ## 7. Übung: Bild auf einer Seite hochladen
 
-1. Erstellen Sie eine nue Seite in ihrem persönlichen Ordner
+1. Erstellen Sie eine neue Seite
 
-2. Wählen Sie den letzten Textblock aus und drücken Sie die Enter-TAste
+2. Erstellen Sie einen neuen Block</br>
+   Wählen Sie dazu den letzten Textblock aus und drücken Sie die Enter-Taste
 
 3. Wählen Sie das Kamera-Symobl im Auswahlmenü aus
 
@@ -18,8 +19,14 @@ title: 'Bilder hochladen'
 
 ![uploadimage](uploadimage.png)
 
-5. Positionieren Sie das Bild links/recchts/mittig/volle Breite
+5. Positionieren Sie das Bild </br>
+   Sie können das Bild...
 
-6. Speichern Sie ihre Seite
+   - links
+   - rechts
+   - mittig
+   - oder in voller Breite positionieren
+
+6) Speichern Sie ihre Seite
 
 ![savedpage](savedpage.png)

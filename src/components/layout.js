@@ -135,17 +135,17 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                Get Started
+                <a href="/introduction">Get Started</a>
               </button>
               <ul>
                 <li>
-                  <a>Get Started</a>
+                  <a href="/introduction">Get Started</a>
                 </li>
                 <li>
-                  <a>What is Plone/Volto?</a>
+                  <a href="/introduction">What is Plone/Volto?</a>
                 </li>
                 <li>
-                  <a>Logging in</a>
+                  <a href="/logging-in">Logging in</a>
                 </li>
               </ul>
             </div>
@@ -162,14 +162,24 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                First Steps
+                <a
+                  href="first-steps"
+                  style={{ textDecoration: 'none', color: 'rgb(109,109,109)' }}
+                >
+                  {' '}
+                  First Steps
+                </a>
               </button>
               <ul>
                 <li>
-                  <a>Seite bearbeiten</a>
+                  <a href="edit-page" style={{ color: 'black' }}>
+                    Seite bearbeiten
+                  </a>
                 </li>
                 <li>
-                  <a>Seite erstellen</a>
+                  <a href="create-page" style={{ color: 'black' }}>
+                    Seite erstellen
+                  </a>
                 </li>
               </ul>
             </div>
@@ -186,17 +196,19 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                Inline Styles
+                <a href="/formatting"> Inline Styles</a>
               </button>
               <ul>
                 <li>
-                  <a>Textformatierung</a>
+                  <a href="/formatting">Textformatierung</a>
                 </li>
                 <li>
-                  <a>Externe Links</a>
+                  <a href="/extern-links">Externe Links</a>
                 </li>
                 <li>
-                  <a>Interne Links</a>
+                  <a href="intern-links" style={{ color: 'black' }}>
+                    Interne Links
+                  </a>
                 </li>
               </ul>
             </div>
@@ -213,14 +225,22 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                Bilder hinzufügen
+                <a href="/upload-images"> Bilder hinzufügen</a>
               </button>
               <ul>
                 <li>
-                  <a>Bilder hochladen</a>
+                  <a href="/upload-images">Bilder hochladen</a>
                 </li>
                 <li>
-                  <a>Bilder einbinden</a>
+                  <a
+                    href="/link-images"
+                    style={{
+                      textDecoration: 'none',
+                      color: 'black',
+                    }}
+                  >
+                    Bilder einbinden
+                  </a>
                 </li>
               </ul>
             </div>
@@ -237,14 +257,16 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                Übersichtsseiten
+                <a href="/composite-page"> Übersichtsseiten</a>
               </button>
               <ul>
                 <li>
-                  <a>Übersichtsseiten</a>
+                  <a href="/composite-page">Übersichtsseiten</a>
                 </li>
                 <li>
-                  <a>Übersichtsseiten erstellen</a>
+                  <a href="/create-composite-page">
+                    Übersichtsseiten erstellen
+                  </a>
                 </li>
               </ul>
             </div>
@@ -261,14 +283,14 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                Schlagwörter
+                <a href="/tags"> Schlagwörter</a>
               </button>
               <ul>
                 <li>
-                  <a>Schlagwörter</a>
+                  <a href="/tags">Schlagwörter</a>
                 </li>
                 <li>
-                  <a>Schlagwörter erstellen</a>
+                  <a href="/create-tags">Schlagwörter erstellen</a>
                 </li>
               </ul>
             </div>
@@ -285,8 +307,59 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                Nachrichtenseiten erstellen
+                <a
+                  href="/create-news-page"
+                  style={{ textDecoration: 'none', color: 'rgb(109,109,109)' }}
+                >
+                  Nachrichtenseiten erstellen
+                </a>
               </button>
+              <div>
+                <button
+                  style={{
+                    color: 'rgb(109, 109, 109)',
+                    backgroundColor: 'rgb(247,247,247)',
+                    fontWeight: '700',
+                    lineHeight: '3',
+                    textTransform: 'uppercase',
+                    fontSize: '14px',
+                    border: 'none',
+                    display: 'inline-block',
+                  }}
+                >
+                  <a href="/multilingual-content">Mehrsprachige Inhalte</a>
+                </button>
+              </div>
+              <div>
+                <button
+                  style={{
+                    color: 'rgb(109, 109, 109)',
+                    backgroundColor: 'rgb(247,247,247)',
+                    fontWeight: '700',
+                    lineHeight: '3',
+                    textTransform: 'uppercase',
+                    fontSize: '14px',
+                    border: 'none',
+                    display: 'inline-block',
+                  }}
+                >
+                  <a href="/more">Anhang/Sonstiges</a>
+                </button>
+                <ul>
+                  <li>
+                    <a href="/maps-block">Maps-Block</a>
+                  </li>
+                  <li>
+                    <a href="/video-block">Video-Block</a>
+                  </li>
+                  <li>
+                    <a href="/teaser-grid">Teaser-Grid</a>
+                  </li>
+                  <li>
+                    <a href="/teaser-hero">Teaser-Hero</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </nav>
           // </div>

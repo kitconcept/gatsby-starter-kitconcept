@@ -8,11 +8,11 @@ title: 'Interne Links'
 
 1. Loggen Sie sich ein
 
-2. Gehen Sie zu der von ihnen erstellten Seite in ihrem Ordner
+2. Gehen Sie zu der von ihnen erstellten Seite
 
 3. Markieren Sie einen beliebigen Teil des Textes
 
-4. Wählen Sie "Link" im Auswahlmenü aus
+4. Wählen Sie erneut "Link" im Auswahlmenü aus
 
 5. Geben Sie die ersten beiden Buchstaben eines bestehenden Inhalts ein (z.B.:"Na")
 

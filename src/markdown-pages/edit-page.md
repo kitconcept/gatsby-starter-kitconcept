@@ -8,21 +8,17 @@ title: 'Seite editieren'
 
 1. Loggen Sie sich auf https://internet.fzj.kitconcept.io/ ein (siehe Übung 1)
 
-2. Navigieren Sie zu dem Punkt "Schulung":
-   https://internet.fzj.kitconcept.io/de/schulung
+2. Navigieren Sie zu der Seite, die Sie bearbeiten möchten</br>
+   Im Folgenden wird hier die Startseite editiert
 
 ![Schulung](schulung.png)
 
-3. Klicken Sie auf ihren Nutzerordner (z.B. "User 1") in der Auflistung
-
-![user1](user1.png)
-
-4. Klicken Sie in der linken Menüleiste auf das "Edit"-Icon
+3. Klicken Sie in der linken Menüleiste auf das "Edit"-Icon
 
 ![edit](edit.png)
 
-5. Ändern Sie Titel und Text der Seite
+4. Ändern Sie Titel und Text der Seite
 
-6. Klicken Sie in der Bearbeitungsleiste auf das "Speichern"-Icon
+5. Klicken Sie in der Bearbeitungsleiste auf das "Speichern"-Icon
 
 ![edittedpage](edittedpage.png)

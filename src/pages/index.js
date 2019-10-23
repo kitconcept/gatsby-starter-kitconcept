@@ -8,7 +8,8 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout isFrontpage>
     <sharedStyles>
-      <p style={{ marginTop: '100px', fontSize: '20px' }}>
+      <h1 style={{}}>Plone CMS</h1>
+      <p style={{ marginTop: '10px', fontSize: '20px' }}>
         Plone/Volto ist ein sogenanntes Content-Management-System (CMS), welches
         ihnen erlaubt, ihre Webseite auch ohne Programmierkenntnisse mit Inhalt
         zu füllen. Darüber hinaus können sie die Inhalte ihrer Webseite

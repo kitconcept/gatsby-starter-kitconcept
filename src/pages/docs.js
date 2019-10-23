@@ -17,10 +17,13 @@ const DocsPage = () => (
         und sie werden bereits nach kürzester Zeit ihre ersten Seiten erstellen
         und mit Inhalten füllen können.
       </p> */}
-      <h1>Inhaltsverzeichnis</h1>
+      <h2>Inhaltsverzeichnis</h2>
       <ul class="contents" style={{ listStyle: 'none' }}>
         <li>
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link
+            to="/introduction/"
+            style={{ fontSize: ' 24px', marginLeft: '20px' }}
+          >
             Get Started
           </Link>{' '}
           <ul
@@ -29,14 +32,19 @@ const DocsPage = () => (
               marginTop: '-5px',
             }}
           >
-            <li>What's Plone/Volto?</li>
-            <li>Logging in</li>
+            <li>
+              <Link to="/introduction/">What's Plone/Volto?</Link>{' '}
+            </li>
+            <li>
+              {' '}
+              <Link to="/logging-in/">Logging in</Link>{' '}
+            </li>
           </ul>
         </li>
         <li>
           {' '}
           <Link
-            to="/page-2/"
+            to="/edit-page/"
             style={{
               fontSize: ' 24px',
               marginLeft: '20px',
@@ -50,13 +58,20 @@ const DocsPage = () => (
               marginTop: '-5px',
             }}
           >
-            <li>Seite bearbeiten</li>
-            <li>Seite erstellen</li>
+            <li>
+              <Link to="/edit-page/">Seite bearbeiten</Link>{' '}
+            </li>
+            <li>
+              <Link to="/create-page/">Seite erstellen</Link>{' '}
+            </li>
           </ul>
         </li>
         <li>
           {' '}
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link
+            to="/formatting/"
+            style={{ fontSize: ' 24px', marginLeft: '20px' }}
+          >
             Inline Styles
           </Link>
           <ul
@@ -65,14 +80,23 @@ const DocsPage = () => (
               marginTop: '-5px',
             }}
           >
-            <li>Textformatierung</li>
-            <li>Externe Links</li>
-            <li>Interne Links</li>
+            <li>
+              <Link to="/formatting/">Textformatierung</Link>{' '}
+            </li>
+            <li>
+              <Link to="/extern-links/">Externe Links</Link>{' '}
+            </li>
+            <li>
+              <Link to="/intern-links/">Interne Links</Link>{' '}
+            </li>
           </ul>
         </li>
         <li>
           {' '}
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link
+            to="/upload-images/"
+            style={{ fontSize: ' 24px', marginLeft: '20px' }}
+          >
             Bilder hinzufügen
           </Link>
           <ul
@@ -81,13 +105,20 @@ const DocsPage = () => (
               marginTop: '-5px',
             }}
           >
-            <li>Bilder hochladen</li>
-            <li>Bilder einbinden</li>
+            <li>
+              <Link to="/upload-images/">Bilder hochladen</Link>{' '}
+            </li>
+            <li>
+              <Link to="/link-images/">Bilder einbinden</Link>{' '}
+            </li>
           </ul>
         </li>
         <li>
           {' '}
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link
+            to="/composite-page/"
+            style={{ fontSize: ' 24px', marginLeft: '20px' }}
+          >
             Übersichtsseiten
           </Link>
           <ul
@@ -96,13 +127,19 @@ const DocsPage = () => (
               marginTop: '-5px',
             }}
           >
-            <li>Übersichtsseiten</li>
-            <li>Übersichtsseiten erstellen</li>
+            <li>
+              <Link to="/composite-page/">Übersichtsseiten</Link>{' '}
+            </li>
+            <li>
+              <Link to="/create-composite-page/">
+                Übersichtsseiten erstellen
+              </Link>{' '}
+            </li>
           </ul>
         </li>
         <li>
           {' '}
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link to="/tags/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
             Schlagwörter
           </Link>
           <ul
@@ -111,14 +148,18 @@ const DocsPage = () => (
               marginTop: '-5px',
             }}
           >
-            <li>Verschlagwortung</li>
-            <li>Schlagwörter erstellen</li>
+            <li>
+              <Link to="/tags/">Verschlagwortung</Link>{' '}
+            </li>
+            <li>
+              <Link to="/create-tags/">Schlagwörter erstellen</Link>{' '}
+            </li>
           </ul>
         </li>
         <li style={{ marginBottom: '15px' }}>
           {' '}
           <Link
-            to="/page-2/"
+            to="/create-news-pages/"
             style={{
               fontSize: ' 24px',
               marginLeft: '20px',
@@ -129,20 +170,31 @@ const DocsPage = () => (
         </li>
         <li style={{ marginBottom: '15px' }}>
           {' '}
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link
+            to="/multilingual-content/"
+            style={{ fontSize: ' 24px', marginLeft: '20px' }}
+          >
             Mehrsprachige Inhalte
           </Link>
         </li>
         <li>
           {' '}
-          <Link to="/page-2/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link to="/more/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
             Anhang/Sonstiges
           </Link>
           <ul>
-            <li>Maps-Block</li>
-            <li>Video-Block</li>
-            <li>Teaser-Grid</li>
-            <li>Teaser-Hero</li>
+            <li>
+              <Link to="/maps-block/">Maps-Block</Link>{' '}
+            </li>
+            <li>
+              <Link to="/video-block/">Video-Block</Link>{' '}
+            </li>
+            <li>
+              <Link to="/teaser-grid/">Teaser-Grid</Link>{' '}
+            </li>
+            <li>
+              <Link to="/teaser-hero/">Teaser-Hero</Link>{' '}
+            </li>
           </ul>
         </li>
       </ul>
