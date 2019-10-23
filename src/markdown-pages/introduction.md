@@ -1,10 +1,7 @@
 ---
 path: '/introduction'
-date: '2019-10-10'
 title: 'Einführung'
 ---
-
-# Einführung
 
 Plone/Volto ist ein sogenanntes Content-Management-System (CMS), welches ihnen erlaubt, ihre Webseite auch ohne Programmierkenntnisse mit Inhalt zu füllen.
 Darüber hinaus können sie die Inhalte ihrer Webseite jederzeit ändern, löschen oder für eine bestimmte Dauer deaktivieren.

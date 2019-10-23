@@ -72,7 +72,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
               </p>
               <div style={{ display: 'flex' }}>
                 <a
-                  href="/"
+                  href="/docs"
                   style={{
                     backgroundColor: '#0095D3',
                     fontSize: '20px',
@@ -87,7 +87,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   Get Started
                 </a>
                 <a
-                  href="/"
+                  href="/introduction"
                   style={{
                     color: '#0095D3',
                     display: 'inline-block',
@@ -106,7 +106,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
             </div>
           </header>
         )}
-        {isDocs && (
+        {!isFrontpage && (
           <nav
             class="sidebarnav"
             style={{
@@ -119,6 +119,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
               backgroundColor: 'rgb(247,247,247)',
               width: '12%',
               paddingLeft: '40px',
+              height: '100%',
             }}
           >
             <div>

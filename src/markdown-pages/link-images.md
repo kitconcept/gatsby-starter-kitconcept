@@ -1,5 +1,5 @@
 ---
-path: '/link-pictures'
+path: '/link-images'
 date: '2019-10-10'
 title: 'Bilder einbinden'
 ---

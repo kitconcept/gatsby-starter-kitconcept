@@ -6,7 +6,7 @@ import BigHeader from '../components/bigheader'
 import Layout from '../components/layout'
 
 const DocsPage = () => (
-  <Layout isDocs>
+  <Layout>
     <sharedStyles>
       {/* <p style={{ marginTop: '100px' }}>
         Plone/Volto ist ein sogenanntes Content-Management-System (CMS), welches
