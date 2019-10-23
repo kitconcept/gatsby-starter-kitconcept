@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => (
       </a>
       <nav style={{ display: 'flex' }}>
         <a
-          href=""
+          href="/docs"
           style={{
             display: 'flex',
             backgroundColor: '#20232a',
@@ -118,6 +118,7 @@ const Header = ({ siteTitle }) => (
         }}
       >
         <a
+          href=""
           style={{
             backgroundColor: '#20232a',
             color: 'white',
@@ -130,6 +131,7 @@ const Header = ({ siteTitle }) => (
           v4.0a
         </a>
         <a
+          href=""
           style={{
             backgroundColor: '#20232a',
             color: 'white',
@@ -142,6 +144,7 @@ const Header = ({ siteTitle }) => (
           Languages
         </a>
         <a
+          href=""
           style={{
             backgroundColor: '#20232a',
             color: 'white',

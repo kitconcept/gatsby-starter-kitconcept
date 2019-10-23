@@ -715,3 +715,20 @@ border-left-color: #ffe564;
 }
 
 
+.contents li {
+  font-size: 20px;
+  font-weight: 400;
+list-style: none;
+
+  }
+
+  .contents a {
+    text-decoration: none;
+    background-color: white;
+    border-bottom: none;
+    text-decoration: uppercase;
+  }
+
+.contents ul {
+
+}
