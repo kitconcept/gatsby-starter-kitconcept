@@ -4,7 +4,7 @@ date: '2019-24-10'
 title: 'Einführung'
 ---
 
-Diese Seite dient als Übersicht für Plone und die Plone Schulung.
+<p class="headerdescription">Diese Seite dient als Übersicht für Plone und die Plone Schulung.</p>
 
 ## Einführung
 

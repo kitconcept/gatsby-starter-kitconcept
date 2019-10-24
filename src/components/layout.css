@@ -756,3 +756,10 @@ margin-right: 140px;
  margin-top: -5px;
 }
 
+.nextprev a:hover {
+  color:black;
+}
+
+.blog-post h1 + p {
+  color:red;
+}

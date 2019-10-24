@@ -201,7 +201,13 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                <a href="/formatting"> Inline Styles</a>
+                <a
+                  href="/inline-styles"
+                  style={{ textDecoration: 'none', color: 'rgb(109,109,109)' }}
+                >
+                  {' '}
+                  Inline Styles
+                </a>
               </button>
               <ul>
                 <li>
@@ -378,6 +384,71 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
           }}
         >
           {children}
+          {!isFrontpage && (
+            <div
+              class="nextprev"
+              style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                marginRight: '120px',
+                marginTop: '50px',
+                border: 'none',
+                backgroundColor: 'white',
+              }}
+            >
+              <button
+                style={{
+                  display: 'block',
+                  textAlign: 'left',
+                  border: '1px solid black',
+                  backgroundColor: 'white',
+                  fontSize: '20px',
+                  marginBottom: '50px',
+                  textTransform: 'uppercase',
+                  color: '#666',
+                  height: '50px',
+                }}
+              >
+                {' '}
+                <a
+                  href=""
+                  style={{
+                    textDecoration: 'none',
+                    backgroundColor: 'white',
+                    border: 'none',
+                    margin: '10px',
+                  }}
+                >
+                  &#10229; Vorherige Seite
+                </a>
+              </button>
+              <button
+                style={{
+                  display: 'block',
+                  textAlign: 'left',
+                  border: '1px solid black',
+                  backgroundColor: 'white',
+                  textTransform: 'uppercase',
+                  fontSize: '20px',
+                  marginBottom: '50px',
+                  color: '#666',
+                  height: '50px',
+                }}
+              >
+                <a
+                  href=""
+                  style={{
+                    textDecoration: 'none',
+                    backgroundColor: 'white',
+                    border: 'none',
+                    margin: '10px',
+                  }}
+                >
+                  Nächste Seite &#10230;
+                </a>
+              </button>
+            </div>
+          )}
         </div>
       </>
     )}
