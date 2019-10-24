@@ -12,11 +12,11 @@ title: 'Maps-Block'
 
 ![mapsblock](mapsblock.png)
 
-![mapsblock2](mapsblock2.png)
+![mapsurl](mapsurl.png)
 
 3. Geben Sie eine gültige Maps HTML-URL ein
 
-![mapsurl](mapsurl.png)
+![mapsblock2](mapsblock2.png)
 
 4. Bestätigen Sie die Eingabe mit der Enter-Taste
 

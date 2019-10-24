@@ -4,7 +4,7 @@ date: '2019-10-10'
 title: 'Übersichtsseite erstellen'
 ---
 
-## 11. Übung: Übersichtsseite erstellen
+## 10. Übung: Übersichtsseite erstellen
 
 1. Erweitern Sie die in Übung 10 erstellte Seite durch die folgenden Elemente
 
@@ -16,7 +16,7 @@ title: 'Übersichtsseite erstellen'
 
 4. Klicken Sie auf das “Ordner”-Symbol in der Block-Einstellungen-Leiste
 
-5. Wählen Sie ein Bild aus dem “Bilder”-Ordner aus (z.B. “/de/user1/bilder/bild1”)
+5. Wählen Sie ein Bild aus dem “Bilder”-Ordner aus
 
 ![firstpicture](firstpicture.png)
 

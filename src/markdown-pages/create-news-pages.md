@@ -16,6 +16,6 @@ title: 'Nachrichtenseite erstellen'
 
 4. Speichern Sie die Seite
 
-5. Ihre Nachricht sollte in dem “Nachrichten”-Bereich der Webseite auftauchen (https://internet.fzj.kitconcept.io/de/nachrichten)
+5. Ihre Nachricht sollte in dem “Nachrichten”-Bereich der Webseite auftauchen
 
 ![newspage](newspage.png)

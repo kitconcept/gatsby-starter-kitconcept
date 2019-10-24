@@ -4,7 +4,7 @@ date: '2019-10-10'
 title: 'Übersichtsseite'
 ---
 
-## 10. Übung: Bestehende Inhaltselemente auf Überssichtsseite einblenden
+## 9. Übung: Bestehende Inhaltselemente auf Überssichtsseite einblenden
 
 1. Erstellen Sie eine neue Seite
 
@@ -33,4 +33,3 @@ title: 'Übersichtsseite'
 ![columnTwo](columnTwo.png)
 
 8. Klicken Sie in der Bearbeitungsleiste auf Speichern
-   0

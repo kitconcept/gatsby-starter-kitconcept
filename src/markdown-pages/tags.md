@@ -4,9 +4,9 @@ date: '2019-10-10'
 title: 'Schlagwörter'
 ---
 
-## 9. Übung: Bilder über Schlagwörter finden
+## 11. Übung: Bilder über Schlagwörter finden
 
-1. In ihrem persönlichen Ordner existiert ein Ordner “Bilder” welcher fünf Bilder enthält denen verschiedene Schlagworte zugewiesen sind
+1. Auf ihrer Seite existiert ein Ordner “Bilder”, welcher fünf Bilder enthält, denen verschiedene Schlagworte zugewiesen sind
 
 ![folderview](folderview.png)
 
@@ -22,4 +22,4 @@ title: 'Schlagwörter'
 
 6. Wählen Sie in der Auswahlliste ein Bild aus
 
-7. Speichern Sie
+7. Speichern Sie ihre Seite in der linken Bearbeitungsleiste

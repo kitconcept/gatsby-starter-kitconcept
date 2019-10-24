@@ -135,17 +135,22 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                <a href="/introduction">Get Started</a>
+                <a href="/introduction">Einführung</a>
               </button>
               <ul>
                 <li>
-                  <a href="/introduction">Get Started</a>
+                  <a href="/introduction">Einführung</a>
                 </li>
                 <li>
-                  <a href="/introduction">What is Plone/Volto?</a>
+                  <a
+                    href="/whats-plone"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                  >
+                    Was ist Plone/Volto?
+                  </a>
                 </li>
                 <li>
-                  <a href="/logging-in">Logging in</a>
+                  <a href="/logging-in">Einloggen</a>
                 </li>
               </ul>
             </div>
@@ -167,7 +172,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   style={{ textDecoration: 'none', color: 'rgb(109,109,109)' }}
                 >
                   {' '}
-                  First Steps
+                  Erste Schritte
                 </a>
               </button>
               <ul>
