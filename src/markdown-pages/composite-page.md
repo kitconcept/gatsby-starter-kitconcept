@@ -14,8 +14,6 @@ title: 'Übersichtsseite'
 
 ![proxyblock](proxyblock.png)
 
-![proxyblock2](proxyblock2.png)
-
 4. Klicken Sie im neu erstellten Block auf “Zwei Elemente” (2 columns)
 
 ![columns](columns.png)

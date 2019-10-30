@@ -11,8 +11,6 @@ title: 'Seite editieren'
 2. Navigieren Sie zu der Seite, die Sie bearbeiten möchten</br>
    Im Folgenden wird hier die Startseite editiert
 
-![Schulung](schulung.png)
-
 3. Klicken Sie in der linken Menüleiste auf das "Edit"-Icon
 
 ![edit](edit.png)

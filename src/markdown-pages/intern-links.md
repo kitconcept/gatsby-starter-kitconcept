@@ -14,9 +14,9 @@ title: 'Interne Links'
 
 4. Wählen Sie erneut "Link" im Auswahlmenü aus
 
-5. Geben Sie die ersten beiden Buchstaben eines bestehenden Inhalts ein (z.B.:"Na")
+5. Geben Sie die ersten Buchstaben eines bestehenden Inhalts ein (z.B.:"N")
 
-6. Wählen Sie im Auswahlmenü ein Element aus (z.B."Nachricht)
+6. Wählen Sie im Auswahlmenü ein Element aus (z.B."News")
 
 ![internlink](internlinks.png)
 

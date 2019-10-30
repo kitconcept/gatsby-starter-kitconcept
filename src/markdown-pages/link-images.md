@@ -15,11 +15,11 @@ title: 'Bilder einbinden'
 
 4. Klicken Sie auf das “Ordner”-Symbol, danach sollte sich die rechte Bearbeitungsleiste öffnen
 
-![links](links.png)
+![links](imagefolder.png)
 
 5. Wählen Sie ein bestehendes Bild aus
 
-![externlink](externlink.png)
+![externlink](linkedimage.png)
 
 6. Positionieren Sie das Bild links/rechts/mittig
 
