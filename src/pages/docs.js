@@ -199,7 +199,6 @@ const DocsPage = () => (
         </li>
       </ul>
       <br></br>
-      <Link to="/styles">Styles</Link>
     </sharedStyles>
   </Layout>
 )

@@ -756,10 +756,33 @@ margin-right: 140px;
  margin-top: -5px;
 }
 
-.nextprev a:hover {
-  color:black;
-}
 
-.blog-post h1 + p {
+.blog-post-content h {
   color:red;
 }
+
+.docscontent a {
+  background-color: inherit;
+padding-top: 7px;
+padding-bottom: 7px;
+font-weight: 400;
+font-style: normal;
+}
+
+.nextprev a:hover {
+color: red;
+}
+
+.sidebarnav a {
+  color: black;
+}
+.sidebarnav a:hover {
+  transition: 0.2 ease 0s;
+  color: grey;
+}
+
+.footernav a{
+  border-bottom: none;
+}
+
+

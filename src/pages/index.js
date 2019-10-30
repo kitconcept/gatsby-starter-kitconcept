@@ -200,7 +200,6 @@ const IndexPage = () => (
         </li>
       </ul>
       <br></br>
-      <Link to="/styles">Styles</Link>
     </sharedStyles>
   </Layout>
 )
