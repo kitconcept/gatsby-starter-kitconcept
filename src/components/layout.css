@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   font-weight: 400;
+
 }
 article,
 aside,
@@ -783,6 +784,10 @@ color: red;
 
 .footernav a{
   border-bottom: none;
+}
+
+.blog-post-content a {
+  color: black;
 }
 
 

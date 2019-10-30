@@ -112,7 +112,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
             class="sidebarnav"
             style={{
               display: 'flex',
-              position: 'absolute',
+              position: 'fixed',
               right: '0',
               flexDirection: 'column',
               paddingTop: '80px',
