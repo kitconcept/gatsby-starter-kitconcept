@@ -4,13 +4,14 @@ date: '2019-10-10'
 title: 'Verschlagwortung'
 ---
 
-## 12. Übung: Verschlagwortung
+## 11. Übung: Verschlagwortung
 
 1. Erstellen Sie eine neue Seite
 
 2. Klicken Sie den Titel der Seite an
 
-3. Wählen Sie in der rechten Spalte ein beliebiges Schlagwort aus (z.B. “Technik”)
+3. Wählen Sie in der rechten Spalte ein beliebiges Schlagwort aus
+   Sie können auch ein neues Schlagwort erstellen
 
 ![selecttags](selecttags.png)
 

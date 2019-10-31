@@ -17,7 +17,7 @@ const DocsPage = () => (
         und sie werden bereits nach kürzester Zeit ihre ersten Seiten erstellen
         und mit Inhalten füllen können.
       </p> */}
-      <h2>Inhaltsverzeichnis</h2>
+      <h2 style={{ marginTop: '100px' }}>Inhaltsverzeichnis</h2>
       <ul class="contents" style={{ listStyle: 'none' }}>
         <li>
           <Link

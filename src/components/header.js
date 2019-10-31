@@ -8,6 +8,8 @@ const Header = ({ siteTitle }) => (
       background: '#20232a',
       width: '100%',
       position: 'fixed',
+      zIndex: '5',
+      top: '0',
     }}
   >
     <div
@@ -23,7 +25,7 @@ const Header = ({ siteTitle }) => (
           backgroundColor: '#20232a',
           display: 'flex',
           height: '60px',
-          marginLeft: '20%',
+          marginLeft: '14%',
           width: '20%',
           justifyContent: 'center',
         }}

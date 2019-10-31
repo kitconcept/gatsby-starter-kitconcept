@@ -6,7 +6,7 @@ title: 'Seite erstellen'
 
 ## 3. Übung: Seite erstellen
 
-1. Loggen Sie sich auf https://volto.kitconcept.com/&nbsp ein <br/> (siehe Übung 1) <br/>
+1. Loggen Sie sich auf https://volto.kitconcept.com/ &nbsp ein <br/> (siehe Übung 1) <br/>
 
 2) Klicken Sie auf das "+"-Symbol in der Bearbeitungsleiste und wählen Sie im Auswahlmenü "Seite" aus
 

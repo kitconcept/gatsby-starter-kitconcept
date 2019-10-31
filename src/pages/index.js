@@ -180,7 +180,13 @@ const IndexPage = () => (
         </li>
         <li>
           {' '}
-          <Link to="/more/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+          <Link
+            to="/more/"
+            style={{
+              fontSize: ' 24px',
+              marginLeft: '20px',
+            }}
+          >
             Anhang/Sonstiges
           </Link>
           <ul>

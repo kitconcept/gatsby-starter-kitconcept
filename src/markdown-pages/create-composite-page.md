@@ -10,13 +10,14 @@ title: 'Übersichtsseite erstellen'
 
 2. Klicken Sie auf das “+”-Symbol, danach auf das “Bild-Block”-Symbol
 
-3. Klicken Sie im neu erstellten Block auf “Zwei Elemente”
+3. Klicken Sie im neu erstellten Block auf “Zwei Bilder”
 
 ![anotherblock](anotherblock.png)
 
 4. Klicken Sie auf das “Ordner”-Symbol in der Block-Einstellungen-Leiste
 
-5. Wählen Sie ein Bild aus dem “Bilder”-Ordner aus
+5. Wählen Sie ein Bild aus
+   Sie können alternativ auch ein Bild aus ihren eigenen Dateien hochladen. Klicken sie dazu auf den Bild-Block
 
 ![firstpicture](firstpicture.png)
 

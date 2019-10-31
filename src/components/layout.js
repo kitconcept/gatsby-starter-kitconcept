@@ -73,7 +73,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
               </p>
               <div style={{ display: 'flex' }}>
                 <a
-                  href="/docs"
+                  href="/introduction"
                   style={{
                     backgroundColor: '#0095D3',
                     fontSize: '20px',
@@ -121,6 +121,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
               width: '12%',
               paddingLeft: '40px',
               height: '100%',
+              top: '40px',
             }}
           >
             <div>
@@ -278,17 +279,17 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   display: 'inline-block',
                 }}
               >
-                <a href="/tags" style={{ color: 'rgb(109,109,109)' }}>
+                <a href="/create-tags" style={{ color: 'rgb(109,109,109)' }}>
                   {' '}
                   Schlagwörter
                 </a>
               </button>
               <ul>
                 <li>
-                  <a href="/tags">Schlagwörter</a>
+                  <a href="/create-tags">Schlagwörter erstellen</a>
                 </li>
                 <li>
-                  <a href="/create-tags">Schlagwörter erstellen</a>
+                  <a href="/tags">Bilder über Schlagwörter finden</a>
                 </li>
               </ul>
             </div>
@@ -306,7 +307,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                 }}
               >
                 <a
-                  href="/create-news-page"
+                  href="/create-news-pages"
                   style={{ color: 'rgb(109,109,109)' }}
                 >
                   Nachrichtenseiten erstellen
@@ -373,7 +374,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: '840px',
             paddingTop: 0,
           }}
         >
@@ -388,6 +389,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
               width: '100%',
               marginRight: 'auto',
               marginLeft: 'auto',
+              marginTop: '100px',
             }}
           >
             <div
