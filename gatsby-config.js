@@ -34,10 +34,9 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-images-zoom`,
+            resolve: `gatsby-remark-images-medium-zoom`,
             options: {
-              margin: 100,
-              zIndex: -1,
+              margin: 0,
             },
           },
         ],
