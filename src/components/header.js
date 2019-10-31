@@ -32,12 +32,12 @@ const Header = ({ siteTitle }) => (
       >
         <img
           src={PloneLogo}
-          style={{ width: '30px', marginTop: '0px', marginBottom: '0' }}
+          style={{ width: '30px', marginTop: '4px', marginBottom: '0' }}
         />
         <span
           style={{
             color: '#0095D3',
-            marginTop: '17px',
+            marginTop: '21px',
             fontSize: '20px',
             marginLeft: '10px',
             fontWeight: '700',
@@ -56,10 +56,10 @@ const Header = ({ siteTitle }) => (
             backgroundColor: '#20232a',
             color: '#ffffff',
             fontWeight: '300',
-            fontSize: '20px',
+            fontSize: '18px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '17px',
+            paddingTop: '21px',
           }}
         >
           Docs
@@ -71,10 +71,10 @@ const Header = ({ siteTitle }) => (
             backgroundColor: '#20232a',
             color: '#ffffff',
             fontWeight: '300',
-            fontSize: '20px',
+            fontSize: '18px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '17px',
+            paddingTop: '21px',
           }}
         >
           Tutorials
@@ -86,10 +86,10 @@ const Header = ({ siteTitle }) => (
             backgroundColor: '#20232a',
             color: '#ffffff',
             fontWeight: '300',
-            fontSize: '20px',
+            fontSize: '18px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '17px',
+            paddingTop: '21px',
           }}
         >
           Trainings
@@ -101,23 +101,39 @@ const Header = ({ siteTitle }) => (
             backgroundColor: '#20232a',
             color: '#ffffff',
             fontWeight: '300',
-            fontSize: '20px',
+            fontSize: '18px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '17px',
+            paddingTop: '21px',
           }}
         >
           Volto
         </a>
       </nav>
+      <form type={{ display: 'flex' }}>
+        <span
+          style={{
+            paddingTop: '20px',
+            display: 'inline-block',
+            paddingLeft: '20px',
+            width: '200px',
+          }}
+        >
+          <input
+            type="search"
+            placeholder="&#128269; Suche"
+            style={{ marginLeft: '10px', fontSize: '17px' }}
+          ></input>
+        </span>
+      </form>
       <div
         style={{
           display: 'flex',
           width: 'auto',
-          justifyContent: 'flex-end',
+          justifyContent: 'flex-start',
           margin: '0',
           padding: '0',
-          marginLeft: '200px',
+          marginLeft: '100px',
         }}
       >
         <a
@@ -128,7 +144,7 @@ const Header = ({ siteTitle }) => (
             fontSize: '14px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '20px',
+            paddingTop: '24px',
           }}
         >
           v4.0a
@@ -141,7 +157,7 @@ const Header = ({ siteTitle }) => (
             fontSize: '14px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '20px',
+            paddingTop: '24px',
           }}
         >
           Languages
@@ -154,7 +170,7 @@ const Header = ({ siteTitle }) => (
             fontSize: '14px',
             paddingLeft: '15px',
             paddingRight: '15px',
-            marginTop: '20px',
+            paddingTop: '24px',
           }}
         >
           GitHub
