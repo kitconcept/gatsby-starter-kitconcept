@@ -202,5 +202,4 @@ const DocsPage = () => (
     </sharedStyles>
   </Layout>
 )
-
 export default DocsPage

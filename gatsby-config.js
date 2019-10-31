@@ -18,6 +18,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-page-transitions',
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
@@ -29,6 +30,14 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images-zoom`,
+            options: {
+              margin: 100,
+              zIndex: -1,
             },
           },
         ],

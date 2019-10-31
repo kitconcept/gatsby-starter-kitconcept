@@ -4,6 +4,7 @@ import sharedStyles from '../pages/theme'
 import Styles from '../pages/styles'
 import BigHeader from '../components/bigheader'
 import Layout from '../components/layout'
+import ImageZoom from 'react-medium-image-zoom'
 
 const IndexPage = () => (
   <Layout isFrontpage>
