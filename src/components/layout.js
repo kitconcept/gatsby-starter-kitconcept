@@ -49,9 +49,9 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
               class="mainheader"
               style={{
                 width: '100%',
-                height: '420px',
+                height: '480px',
                 backgroundColor: '#282c34',
-                padding: '100px',
+                padding: '140px',
               }}
             >
               <div
@@ -61,6 +61,10 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                   paddingTop: '0',
                   height: '420px',
                   textAlign: 'center',
+                  backgroundImage: 'url(https://reactjs.org/search.svg)',
+                  backgroundSize: '200px',
+                  backgroundPosition: '100% 100px',
+                  backgroundRepeat: 'no-repeat',
                 }}
               >
                 {/* <img
