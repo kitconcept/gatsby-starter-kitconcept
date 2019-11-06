@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import KitconceptLogo from './kitconcept-logo.svg'
 import PageTransition from 'gatsby-plugin-page-transitions'
 import PloneLogo from './plone-icon2.svg'
-
+import Img from 'gatsby-image'
 import Header from './header'
 import './layout.css'
 
@@ -51,20 +51,16 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                 width: '100%',
                 height: '480px',
                 backgroundColor: '#282c34',
-                padding: '140px',
               }}
             >
               <div
+                class="logobackgroundimage"
                 style={{
                   margin: '0 auto',
-                  maxWidth: '960px',
-                  paddingTop: '0',
-                  height: '420px',
+                  maxWidth: '1500px',
+                  paddingTop: '140px',
+                  height: '480px',
                   textAlign: 'center',
-                  backgroundImage: 'url(https://reactjs.org/search.svg)',
-                  backgroundSize: '200px',
-                  backgroundPosition: '100% 100px',
-                  backgroundRepeat: 'no-repeat',
                 }}
               >
                 {/* <img
@@ -92,6 +88,8 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                     fontSize: '30px',
                     fontWeight: '200',
                     marginTop: '0',
+                    width: '1500px',
+                    margin: '0 auto',
                   }}
                 >
                   Plone - Open Source CMS
@@ -104,7 +102,7 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                       backgroundColor: '#0095D3',
                       fontSize: '20px',
                       color: '#000000',
-                      marginLeft: '30%',
+                      marginLeft: '37%',
                       marginTop: '20px',
                       padding: '10px 25px',
                       paddingTop: '15px',
@@ -120,7 +118,7 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                       color: '#0095D3',
                       display: 'inline-block',
                       fontSize: '20px',
-                      backgroundColor: '#282c34',
+                      backgroundColor: 'inherit',
                       marginTop: '20px',
                       padding: '10px 25px',
                       paddingTop: '15px',
@@ -474,7 +472,7 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                     color: '#0095D3',
                     display: 'inline-block',
                     fontSize: '20px',
-                    backgroundColor: '#282c34',
+                    backgroundColor: 'inherit',
                     marginTop: '20px',
                     padding: '10px 25px',
                     paddingTop: '15px',

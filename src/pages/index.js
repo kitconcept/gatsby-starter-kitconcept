@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
+
+import { Link, graphql } from 'gatsby'
 
 import Styles from '../pages/styles'
 import BigHeader from '../components/bigheader'
 import Layout from '../components/layout'
 import ImageZoom from 'react-medium-image-zoom'
+import Img from 'gatsby-image'
 
 const IndexPage = () => (
   <Layout isFrontpage isIntroduction>
@@ -53,17 +55,41 @@ const IndexPage = () => (
       In <a href="./first-steps">diesem Abschnitt</a> werden sie lernen, wie sie
       Seiten editieren und neue Seiten hinzufügen können.
     </p>
+    <div className="frontpageimages">
+      <ImageZoom
+        image={{
+          src: 'frontpage1.png',
+          alt: 'edit',
+          className: 'frontpageimage',
+        }}
+        zoomImage={{
+          src: 'frontpage1.png',
+          alt: 'edit',
+        }}
+      />
+    </div>
     <h3 style={{ maxWidth: '570px' }}>Inline Styles</h3>
     <p style={{ maxWidth: '570px' }}>
       Mit <a href="./inline-styles">Inline Styles</a> bietet ihnen Plone die
       Möglichkeit, Textelemente hervorzuheben und zu stylen. Zusätzlich können
       Sie Listen, Links oder Zitate verwenden.
     </p>
+    <ImageZoom
+      image={{
+        src: 'frontpage2.png',
+        alt: 'bold',
+        className: 'frontpageimage',
+      }}
+      zoomImage={{
+        src: 'frontpage2.png',
+        alt: 'bold',
+      }}
+    />
     <h3 style={{ maxWidth: '570px' }}>Bilder hinzufügen</h3>
     <p style={{ maxWidth: '570px' }}>
       Plone kann Bilder speichern, sie können Bilder aus dem Internet in Plone
       einbinden oder ihre eigenen Bilder hochladen. Wie das geht und welche
-      weieteren Möglichkeiten ihnen zum Thema Bilder zur Verfügung stehen,
+      weiteren Möglichkeiten ihnen zum Thema Bilder zur Verfügung stehen,
       erfahren sie{' '}
       <a href="./add-images" style={{ color: 'black' }}>
         {' '}
@@ -71,12 +97,34 @@ const IndexPage = () => (
       </a>
       .
     </p>
+    <ImageZoom
+      image={{
+        src: 'frontpage3.png',
+        alt: 'images',
+        className: 'frontpageimage',
+      }}
+      zoomImage={{
+        src: 'frontpage3.png',
+        alt: 'images',
+      }}
+    />
     <h3 style={{ maxWidth: '570px' }}>Übersichtsseiten</h3>
     <p style={{ maxWidth: '570px' }}>
       Übersichtsseiten sind Seiten, die einen Überblick über mehrere Inhalte auf
       einer einzigen Seite zusammenfassen. Wie sie Übersichtsseiten anlegen,
       erfahren Sie in diesem <a href="./composite-pages">Abschnitt</a>.
     </p>
+    <ImageZoom
+      image={{
+        src: 'frontpage4.png',
+        alt: 'compositepages',
+        className: 'frontpageimage',
+      }}
+      zoomImage={{
+        src: 'frontpage4.png',
+        alt: 'compositepages',
+      }}
+    />
     <h3 style={{ maxWidth: '570px' }}>Schlagwörter</h3>
     <p style={{ maxWidth: '570px' }}>
       Was Schlagwörter sind, wofür sie nützlich sind und wie Sie sie benutzen
@@ -99,3 +147,21 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+// export const fluidImage = graphql`
+//   fragment fluidImage on File {
+//     childImageSharp {
+//       fluid(maxWidth: 500) {
+//         ...GatsbyImageSharpFluid
+//       }
+//     }
+//   }
+// `
+
+// export const pageQuery = graphql`
+//   query {
+//     imageOne: file(relativePath: { eq: "image.png" }) {
+//       ...fluidImage
+//     }
+//   }
+// `

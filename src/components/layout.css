@@ -809,3 +809,18 @@ input:focus {
 a:visited {
   color:inherit;
 }
+
+/* .frontpageimages img {
+ width: 500px;
+ max-width: 500px;
+ height: auto;
+
+} */
+
+.logobackgroundimage {
+  background-image: url('plone-icon2.svg');
+  background-size: 500px;
+  background-position: 100% 150px;
+  background-repeat: no-repeat;
+
+}
