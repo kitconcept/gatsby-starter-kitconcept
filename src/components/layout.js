@@ -4,11 +4,12 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import KitconceptLogo from './kitconcept-logo.svg'
 import PageTransition from 'gatsby-plugin-page-transitions'
+import PloneLogo from './plone-icon2.svg'
 
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children, data, isFrontpage, isDocs }) => (
+const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -58,11 +59,18 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   margin: '0 auto',
                   maxWidth: '960px',
                   paddingTop: '0',
-                  width: '100%',
                   height: '420px',
                   textAlign: 'center',
                 }}
               >
+                {/* <img
+                  src={PloneLogo}
+                  style={{
+                    display: 'block',
+                    position: 'static',
+                    marginLeft: '1000px',
+                  }}
+                ></img> */}
                 <h1
                   style={{
                     color: '#0095D3',
@@ -86,7 +94,8 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                 </p>
                 <div style={{ display: 'flex' }}>
                   <a
-                    href="/introduction"
+                    class="getstarted"
+                    href="/introductionpage"
                     style={{
                       backgroundColor: '#0095D3',
                       fontSize: '20px',
@@ -101,6 +110,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                     Get Started
                   </a>
                   <a
+                    class="gototraining"
                     href="/introduction"
                     style={{
                       color: '#0095D3',
@@ -392,16 +402,29 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
             </nav>
             // </div>
           )}
-
-          <div
-            style={{
-              margin: '0 auto',
-              maxWidth: '840px',
-              paddingTop: 0,
-            }}
-          >
-            {children}
-          </div>
+          {isIntroduction && (
+            <div
+              style={{
+                margin: '0 auto',
+                maxWidth: '1220px',
+                zIndex: '1',
+                paddingTop: 0,
+              }}
+            >
+              {children}
+            </div>
+          )}
+          {!isIntroduction && (
+            <div
+              style={{
+                margin: '0 auto',
+                maxWidth: '840px',
+                paddingTop: 0,
+              }}
+            >
+              {children}
+            </div>
+          )}
           {isFrontpage && (
             <div
               style={{
@@ -424,7 +447,8 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                 }}
               >
                 <a
-                  href="/docs"
+                  class="getstarted"
+                  href="./introductionpage"
                   style={{
                     backgroundColor: '#0095D3',
                     display: 'inline-block',
@@ -440,6 +464,7 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                   Get Started
                 </a>
                 <a
+                  class="gototraining"
                   href="/introduction"
                   style={{
                     color: '#0095D3',
@@ -632,15 +657,15 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                     >
                       Docs
                     </div>
-                    <a>Einführung</a>
-                    <a>Erste Schritte</a>
-                    <a>Inline Styles</a>
-                    <a>Bilder hinzufügen</a>
-                    <a>Übersichtsseiten</a>
-                    <a>Schlagwörter</a>
-                    <a>Nachrichtenseiten erstellen</a>
-                    <a>Mehrsprachige Inhalte</a>
-                    <a>Anhang/Sonstiges</a>
+                    <a class="menupoints">Einführung</a>
+                    <a class="menupoints">Erste Schritte</a>
+                    <a class="menupoints">Inline Styles</a>
+                    <a class="menupoints">Bilder hinzufügen</a>
+                    <a class="menupoints">Übersichtsseiten</a>
+                    <a class="menupoints">Schlagwörter</a>
+                    <a class="menupoints">Nachrichtenseiten erstellen</a>
+                    <a class="menupoints">Mehrsprachige Inhalte</a>
+                    <a class="menupoints">Anhang/Sonstiges</a>
                   </div>
                 </div>
                 <div
@@ -668,10 +693,10 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                     >
                       Mehr
                     </div>
-                    <a>Maps-Block</a>
-                    <a>Video-Block</a>
-                    <a>Teaser-Grid</a>
-                    <a>Teaser</a>
+                    <a class="menupoints">Maps-Block</a>
+                    <a class="menupoints">Video-Block</a>
+                    <a class="menupoints">Teaser-Grid</a>
+                    <a class="menupoints">Teaser</a>
                   </div>
                 </div>
                 <div
@@ -699,10 +724,10 @@ const Layout = ({ children, data, isFrontpage, isDocs }) => (
                     >
                       Credits
                     </div>
-                    <a>Foo</a>
-                    <a>Kitconcept GmbH</a>
-                    <a>Plone Foundation</a>
-                    <a>Volto</a>
+                    <a class="menupoints">Foo</a>
+                    <a class="menupoints">Kitconcept GmbH</a>
+                    <a class="menupoints">Plone Foundation</a>
+                    <a class="menupoints">Volto</a>
                   </div>
                 </div>
               </div>

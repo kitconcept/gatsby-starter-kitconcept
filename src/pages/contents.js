@@ -4,19 +4,21 @@ import { Link } from 'gatsby'
 import Styles from '../pages/styles'
 import BigHeader from '../components/bigheader'
 import Layout from '../components/layout'
+import ImageZoom from 'react-medium-image-zoom'
 
-const DocsPage = () => (
-  <Layout>
-    {/* <p style={{ marginTop: '100px' }}>
-        Plone/Volto ist ein sogenanntes Content-Management-System (CMS), welches
-        ihnen erlaubt, ihre Webseite auch ohne Programmierkenntnisse mit Inhalt
-        zu füllen. Darüber hinaus können sie die Inhalte ihrer Webseite
-        jederzeit ändern, löschen oder für eine bestimmte Dauer deaktivieren. Im
-        Nachfolgenden werden ihnen die Grundkenntnisse von Plone/Volto erklärt,
-        und sie werden bereits nach kürzester Zeit ihre ersten Seiten erstellen
-        und mit Inhalten füllen können.
-      </p> */}
-    <h2 style={{ marginTop: '100px' }}>Inhaltsverzeichnis</h2>
+const IndexPage = () => (
+  <Layout isFrontpage>
+    <h1 style={{}}>Plone CMS</h1>
+    <p style={{ marginTop: '10px', fontSize: '20px' }}>
+      Plone/Volto ist ein sogenanntes Content-Management-System (CMS), welches
+      ihnen erlaubt, ihre Webseite auch ohne Programmierkenntnisse mit Inhalt zu
+      füllen. Darüber hinaus können sie die Inhalte ihrer Webseite jederzeit
+      ändern, löschen oder für eine bestimmte Dauer deaktivieren. Im
+      Nachfolgenden werden ihnen die Grundkenntnisse von Plone/Volto erklärt,
+      und sie werden bereits nach kürzester Zeit ihre ersten Seiten erstellen
+      und mit Inhalten füllen können.
+    </p>
+    <h2>Inhaltsverzeichnis</h2>
     <ul class="contents" style={{ listStyle: 'none' }}>
       <li>
         <Link
@@ -176,7 +178,13 @@ const DocsPage = () => (
       </li>
       <li>
         {' '}
-        <Link to="/more/" style={{ fontSize: ' 24px', marginLeft: '20px' }}>
+        <Link
+          to="/more/"
+          style={{
+            fontSize: ' 24px',
+            marginLeft: '20px',
+          }}
+        >
           Anhang/Sonstiges
         </Link>
         <ul>
@@ -198,4 +206,5 @@ const DocsPage = () => (
     <br></br>
   </Layout>
 )
-export default DocsPage
+
+export default IndexPage

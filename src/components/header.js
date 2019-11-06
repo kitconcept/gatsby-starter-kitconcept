@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import PloneLogo from './plone-icon.svg'
+import SearchLogo from './search.svg'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -50,6 +51,7 @@ const Header = ({ siteTitle }) => (
       </a>
       <nav style={{ display: 'flex' }}>
         <a
+          class="menupoints"
           href="/docs"
           style={{
             display: 'flex',
@@ -65,6 +67,7 @@ const Header = ({ siteTitle }) => (
           Docs
         </a>
         <a
+          class="menupoints"
           href=""
           style={{
             display: 'flex',
@@ -80,6 +83,7 @@ const Header = ({ siteTitle }) => (
           Tutorials
         </a>
         <a
+          class="menupoints"
           href=""
           style={{
             display: 'flex',
@@ -95,6 +99,7 @@ const Header = ({ siteTitle }) => (
           Trainings
         </a>
         <a
+          class="menupoints"
           href=""
           style={{
             display: 'flex',
@@ -110,25 +115,48 @@ const Header = ({ siteTitle }) => (
           Volto
         </a>
       </nav>
-      <form type={{ display: 'flex' }}>
+      <form
+        type={{
+          display: 'flex',
+          width: 'auto',
+        }}
+      >
         <span
           style={{
-            paddingTop: '20px',
             display: 'inline-block',
-            paddingLeft: '20px',
-            width: '200px',
+            paddingTop: '18px',
+            paddingLeft: '300px',
+            position: 'relative',
           }}
         >
           <input
+            class="inputsearch"
             type="search"
-            placeholder="&#128269; Suche"
-            style={{ marginLeft: '10px', fontSize: '17px' }}
+            placeholder="Suche"
+            style={{
+              position: 'relative',
+              fontSize: '18px',
+              fontWeight: '300',
+              backgroundColor: '#20232a',
+              padding: '0.25rem',
+              paddingLeft: '29px',
+              borderRadius: '3px',
+              border: 'none',
+              color: '#ffffff',
+              backgroundImage: 'url(https://reactjs.org/search.svg)',
+              backgroundSize: '16px 16px',
+              backgroundPositionY: 'center',
+              backgroundPositionX: '4px',
+              backgroundRepeat: 'no-repeat',
+              outline: 'none',
+            }}
           ></input>
         </span>
       </form>
       <div
         style={{
-          display: 'flex',
+          // display: 'flex',
+          display: 'none',
           width: 'auto',
           justifyContent: 'flex-start',
           margin: '0',

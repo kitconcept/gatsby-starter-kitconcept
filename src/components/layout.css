@@ -790,4 +790,22 @@ color: red;
   color: black;
 }
 
+input:focus {
+  background-color: 	#383842 !important;
+}
 
+.getstarted:hover {
+  background-color: white !important;
+}
+
+.gototraining:hover {
+  color: white !important;
+}
+
+.menupoints:hover {
+ color: rgb(0,149,211) !important;
+}
+
+a:visited {
+  color:inherit;
+}

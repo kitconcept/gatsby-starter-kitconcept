@@ -24,6 +24,8 @@ In der [Plone Schulung](./introduction) lernen Sie, wie sie Plone bedienen und n
 
 In [diesem Abschnitt](./first-steps) werden sie lernen, wie sie Seiten editieren und neue Seiten hinzufügen können.
 
+![edittedpage](edittedpage.png)
+
 ### Inline Styles
 
 Mit [Inline Styles](./inline-styles) bietet ihnen Plone die Möglichkeit, Textelemente hervorzuheben und zu stylen. Zusätzlich können

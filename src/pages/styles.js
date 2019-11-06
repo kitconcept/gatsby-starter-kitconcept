@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import sharedStyles from '../pages/theme'
 
 import Layout from '../components/layout'
 import { italic } from 'ansi-colors'
@@ -50,6 +49,8 @@ const Styles = () => (
     <p>
       Das hier ist ein Code-Text:
       <code class="gatsby-code-text">setState()</code>
+      <br></br>
+      <img src="edittedpage.png"></img>
     </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
