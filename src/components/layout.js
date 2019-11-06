@@ -78,6 +78,7 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                     fontSize: '60px',
                     paddingBottom: '0',
                     marginTop: 0,
+                    marginBottom: '20px',
                   }}
                 >
                   Plone Schulungen
@@ -94,7 +95,13 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                 >
                   Plone - Open Source CMS
                 </p>
-                <div style={{ display: 'flex' }}>
+                <div
+                  style={{
+                    display: 'flex',
+                    paddingTop: '40px',
+                    paddingLeft: '30px',
+                  }}
+                >
                   <a
                     class="getstarted"
                     href="/introductionpage"
