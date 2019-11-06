@@ -824,3 +824,9 @@ a:visited {
   background-repeat: no-repeat;
 
 }
+
+.frontpageimage {
+  max-width: 500px;
+  margin-left: 600px;
+
+}

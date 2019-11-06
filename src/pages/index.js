@@ -7,6 +7,10 @@ import BigHeader from '../components/bigheader'
 import Layout from '../components/layout'
 import ImageZoom from 'react-medium-image-zoom'
 import Img from 'gatsby-image'
+import frontpage1 from '../pages/frontpage1.png'
+import frontpage2 from '../pages/frontpage2.png'
+import frontpage3 from '../pages/frontpage3.png'
+import frontpage4 from '../pages/frontpage4.png'
 
 const IndexPage = () => (
   <Layout isFrontpage isIntroduction>
@@ -50,20 +54,21 @@ const IndexPage = () => (
       Kenntnisse direkt anwenden und schon nach wenigen Minuten ihre ersten
       Inhalte hinzufügen können.
     </p>
-    <h3 style={{ maxWidth: '570px' }}>Erste Schritte</h3>
-    <p style={{ maxWidth: '570px' }}>
-      In <a href="./first-steps">diesem Abschnitt</a> werden sie lernen, wie sie
-      Seiten editieren und neue Seiten hinzufügen können.
-    </p>
-    <div className="frontpageimages">
+    <div className="frontpageimages" style={{ display: 'block' }}>
+      <h3 style={{ maxWidth: '570px' }}>Erste Schritte</h3>
+      <p style={{ maxWidth: '570px' }}>
+        In <a href="./first-steps">diesem Abschnitt</a> werden sie lernen, wie
+        sie Seiten editieren und neue Seiten hinzufügen können.
+      </p>
+
       <ImageZoom
         image={{
-          src: 'frontpage1.png',
+          src: frontpage1,
           alt: 'edit',
           className: 'frontpageimage',
         }}
         zoomImage={{
-          src: 'frontpage1.png',
+          src: frontpage1,
           alt: 'edit',
         }}
       />
@@ -76,12 +81,12 @@ const IndexPage = () => (
     </p>
     <ImageZoom
       image={{
-        src: 'frontpage2.png',
+        src: frontpage2,
         alt: 'bold',
         className: 'frontpageimage',
       }}
       zoomImage={{
-        src: 'frontpage2.png',
+        src: frontpage2,
         alt: 'bold',
       }}
     />
@@ -99,12 +104,12 @@ const IndexPage = () => (
     </p>
     <ImageZoom
       image={{
-        src: 'frontpage3.png',
+        src: frontpage3,
         alt: 'images',
         className: 'frontpageimage',
       }}
       zoomImage={{
-        src: 'frontpage3.png',
+        src: frontpage3,
         alt: 'images',
       }}
     />
@@ -116,12 +121,12 @@ const IndexPage = () => (
     </p>
     <ImageZoom
       image={{
-        src: 'frontpage4.png',
+        src: frontpage4,
         alt: 'compositepages',
         className: 'frontpageimage',
       }}
       zoomImage={{
-        src: 'frontpage4.png',
+        src: frontpage4,
         alt: 'compositepages',
       }}
     />
