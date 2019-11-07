@@ -175,10 +175,12 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                 </button>
                 <ul>
                   <li>
-                    <a href="/introduction">Einführung</a>
+                    <a href="/introduction#einführung">Einführung</a>
                   </li>
                   <li>
-                    <a href="/whats-plone">Was ist Plone/Volto?</a>
+                    <a href="/introduction#was-ist-plone">
+                      Was ist Plone/Volto?
+                    </a>
                   </li>
                   <li>
                     <a href="/logging-in">Einloggen</a>
@@ -666,15 +668,31 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                     >
                       Docs
                     </div>
-                    <a class="menupoints">Einführung</a>
-                    <a class="menupoints">Erste Schritte</a>
-                    <a class="menupoints">Inline Styles</a>
-                    <a class="menupoints">Bilder hinzufügen</a>
-                    <a class="menupoints">Übersichtsseiten</a>
-                    <a class="menupoints">Schlagwörter</a>
-                    <a class="menupoints">Nachrichtenseiten erstellen</a>
+                    <a href="/introduction#einführung" class="menupoints">
+                      Einführung
+                    </a>
+                    <a href="/introduction#Erste-Schritte" class="menupoints">
+                      Erste Schritte
+                    </a>
+                    <a href="/inline-styles" class="menupoints">
+                      Inline Styles
+                    </a>
+                    <a href="/upload-images" class="menupoints">
+                      Bilder hinzufügen
+                    </a>
+                    <a href="/composite-page" class="menupoints">
+                      Übersichtsseiten
+                    </a>
+                    <a href="/create-tags" class="menupoints">
+                      Schlagwörter
+                    </a>
+                    <a href="/create-news-pages" class="menupoints">
+                      Nachrichtenseiten erstellen
+                    </a>
                     <a class="menupoints">Mehrsprachige Inhalte</a>
-                    <a class="menupoints">Anhang/Sonstiges</a>
+                    <a href="more" class="menupoints">
+                      Anhang/Sonstiges
+                    </a>
                   </div>
                 </div>
                 <div
@@ -733,9 +751,12 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                     >
                       Credits
                     </div>
-                    <a class="menupoints">Foo</a>
-                    <a class="menupoints">Kitconcept GmbH</a>
-                    <a class="menupoints">Plone Foundation</a>
+                    <a href="https://kitconcept.com/" class="menupoints">
+                      kitconcept GmbH
+                    </a>
+                    <a href="https://plone.org/" class="menupoints">
+                      Plone Foundation
+                    </a>
                     <a class="menupoints">Volto</a>
                   </div>
                 </div>

@@ -12,9 +12,9 @@ Plone wurde designed, um Webseiten dynamisch und aktuell halten zu können, ohne
 Im Nachfolgenden sind die Inhalte der Schulung grob zusammengefasst, sie können diese auch überspringen und
 [direkt mit der Schulung starten.](./whats-plone)
 
-### Was ist Plone
+### <a name="whatsplone"></a>Was ist Plone
 
-Plone ist ein Content-Management-System (CMS), dessen Oberfläche es dem Nutzer erlaubt, Inhalte einer Webseite zu verändern.
+Plone/Volto ist ein Content-Management-System (CMS), welches ihnen erlaubt, ihre Webseite auch ohne Programmierkenntnisse mit Inhalt zu füllen. Darüber hinaus können sie die Inhalte ihrer Webseite jederzeit ändern, löschen oder für eine bestimmte Dauer deaktivieren. Im Nachfolgenden werden ihnen die Grundkenntnisse von Plone/Volto erklärt, und sie werden bereits nach kürzester Zeit ihre ersten Seiten erstellen und mit Inhalten füllen können.
 
 ## Plone Schulung
 

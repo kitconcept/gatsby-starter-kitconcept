@@ -827,6 +827,11 @@ a:visited {
 
 .frontpageimage {
   max-width: 500px;
-  margin-left: 600px;
+ align-content: right;
+  display:inline-block;
+  position: relative;
+  right: 0;
+  border: 1px solid lightgrey;
+margin-left: 100px;
 
 }

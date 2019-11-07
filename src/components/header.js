@@ -100,7 +100,7 @@ const Header = ({ siteTitle }) => (
         </a>
         <a
           class="menupoints"
-          href=""
+          href="/introduction"
           style={{
             display: 'flex',
             backgroundColor: '#20232a',
