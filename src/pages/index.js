@@ -69,9 +69,10 @@ const IndexPage = () => (
         >
           Plone wurde designed, um Webseiten dynamisch und aktuell halten zu
           können, ohne Programmierkenntnisse zu haben. Jeder hat dadurch die
-          Möglichkeit, neue Inhalte hinzuzufügen oder Alte zu editieren. Im
-          Nachfolgenden sind die Inhalte der Schulung grob zusammengefasst, sie
-          können diese auch überspringen und{' '}
+          Möglichkeit, neue Inhalte hinzuzufügen oder Alte zu editieren.
+          <br></br>
+          <br></br> Im Nachfolgenden sind die Inhalte der Schulung grob
+          zusammengefasst, sie können diese auch überspringen und{' '}
           <a href="./whats-plone">direkt mit der Schulung starten</a>.
         </p>
       </div>
@@ -97,7 +98,13 @@ const IndexPage = () => (
           }}
         >
           Plone ist ein Content-Management-System (CMS), dessen Oberfläche es
-          dem Nutzer erlaubt, Inhalte einer Webseite zu verändern.
+          dem Nutzer erlaubt, Inhalte einer Webseite zu verändern. Um das zu
+          erreichen, stehen dem Nutzer verschiedene Möglichkeiten und Werkzeuge
+          zur Verfügung, Plone bleibt dabei aber leicht bedienbar und sicher.{' '}
+          <br></br>
+          <br></br>
+          Welche Möglichkeiten mit Plone genau zur Verfügung stehen, erfahren
+          sie in unsere <a href="/introduction">Schulung</a>.
         </p>
       </div>
       <div style={{ display: 'block', maxWidth: '370px' }}>
@@ -125,6 +132,14 @@ const IndexPage = () => (
           Plone bedienen und nutzen können. Im Laufe der Schulung werden sie
           ihre Kenntnisse direkt anwenden und schon nach wenigen Minuten ihre
           ersten Inhalte hinzufügen können.
+          <br></br>
+          <br></br>
+          Für eine ausführlichere Dokumentation oder weitere Informationen
+          besuchen Sie gerne die offizielle&nbsp;
+          <a href="https://www.plone.org" style={{ color: 'black' }}>
+            Plone Webseite
+          </a>
+          .
         </p>
       </div>
     </div>

@@ -720,10 +720,18 @@ const Layout = ({ children, data, isFrontpage, isDocs, isIntroduction }) => (
                     >
                       Mehr
                     </div>
-                    <a class="menupoints">Maps-Block</a>
-                    <a class="menupoints">Video-Block</a>
-                    <a class="menupoints">Teaser-Grid</a>
-                    <a class="menupoints">Teaser</a>
+                    <a href="/maps-block" class="menupoints">
+                      Maps-Block
+                    </a>
+                    <a href="/video-block" class="menupoints">
+                      Video-Block
+                    </a>
+                    <a href="/teaser-grid" class="menupoints">
+                      Teaser-Grid
+                    </a>
+                    <a href="/teaser-hero" class="menupoints">
+                      Teaser-Hero{' '}
+                    </a>
                   </div>
                 </div>
                 <div

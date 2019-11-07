@@ -23,7 +23,7 @@ const DocsPage = () => (
           to="/introduction/"
           style={{ fontSize: ' 24px', marginLeft: '20px' }}
         >
-          Get Started
+          Einführung
         </Link>{' '}
         <ul
           style={{
@@ -32,11 +32,11 @@ const DocsPage = () => (
           }}
         >
           <li>
-            <Link to="/introduction/">What's Plone/Volto?</Link>{' '}
+            <Link to="/introduction/">Was ist Plone/Volto?</Link>{' '}
           </li>
           <li>
             {' '}
-            <Link to="/logging-in/">Logging in</Link>{' '}
+            <Link to="/logging-in/">Einloggen</Link>{' '}
           </li>
         </ul>
       </li>
@@ -49,7 +49,7 @@ const DocsPage = () => (
             marginLeft: '20px',
           }}
         >
-          First Steps
+          Erste Schritte
         </Link>
         <ul
           style={{
